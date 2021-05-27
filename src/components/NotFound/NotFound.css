@@ -1,0 +1,22 @@
+.notFound {
+    max-width: 450px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.notFound__inner {
+    text-align: center;
+}
+
+.notFound h2 {
+    color: #061058;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.notFound h3 {
+    color: #222c77;
+    margin: 5px 0 15px;
+}

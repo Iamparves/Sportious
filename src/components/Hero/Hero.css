@@ -1,0 +1,24 @@
+.hero {
+    padding: 30px 0;
+}
+
+.hero__inner {
+    padding: 70px 25px;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../img/stadium.jpg) no-repeat center center / cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero__title {
+    color: #ffffffcc;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero__subtitle {
+    color: #ffffffb3;
+    font-weight: 500;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+}

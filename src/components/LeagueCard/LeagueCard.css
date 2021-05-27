@@ -1,0 +1,44 @@
+.league__card {
+    background: #FFF;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    background: linear-gradient(#ffffff1a, #fff);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+
+.league__img--box {
+    height: 150px;
+    width: 100%;
+    background: #CAD9F2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.league__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.league__content {
+    text-align: center;
+    padding: 20px 5px 5px;
+}
+
+.league__name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #071159;
+}
+
+.league__type {
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.league__btn:hover {
+    letter-spacing: 1px;
+}

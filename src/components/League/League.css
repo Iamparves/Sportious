@@ -1,0 +1,21 @@
+.league {
+    padding-bottom: 40px;
+}
+
+.league__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .league__inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .league__inner {
+        grid-template-columns: 1fr;
+    }
+}
